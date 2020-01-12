@@ -13,5 +13,11 @@ namespace Projekt_Zaliczeniowy
         {
 
         }
+
+        protected void Wyloguj(object send, EventArgs e)
+        {
+            Session.Abandon();
+            Response.Redirect("Default.aspx");
+        }
     }
 }

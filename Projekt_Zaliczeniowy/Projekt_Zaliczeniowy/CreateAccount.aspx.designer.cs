@@ -11,7 +11,16 @@ namespace Projekt_Zaliczeniowy
 {
 
 
-    public partial class _Default
+    public partial class CreateAccount
     {
+
+        /// <summary>
+        /// Kontrolka wrong.
+        /// </summary>
+        /// <remarks>
+        /// Pole generowane automatycznie.
+        /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl wrong;
     }
 }

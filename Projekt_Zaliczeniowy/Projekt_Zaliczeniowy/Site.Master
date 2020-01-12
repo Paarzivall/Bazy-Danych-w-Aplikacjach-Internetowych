@@ -53,9 +53,16 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/CoGramy">Co gramy?</a></li>
                         <li><a runat="server" href="~/Rezerwuj">Zarezerwuj bilet</a></li>
                         <li><a runat="server" href="~/CreateAccount"><i class="far fa-user"></i> Utwórz Konto</a></li>
+                        <%if (Session["mail"] != null &&  Session["superuser"] != null)
+                            { %>
+                            <li><a runat="server" href="admin.aspx"><i class="far fa-user"></i> Panel Administracyjny</a></li>
+                        <%} %>
+                        <%if (Session["mail"] != null)
+                            { %>
+                            <asp:Button runat="server" CommandName="wyloguj" Text="Wyloguj się" OnClick="Wyloguj"/>
+                        <%} %>
                     </ul>
                 </div>
             </div>

@@ -11,16 +11,25 @@ namespace Projekt_Zaliczeniowy
 {
 
 
-    public partial class MainPage
+    public partial class admin
     {
 
         /// <summary>
-        /// Kontrolka form1.
+        /// Kontrolka divSale.
         /// </summary>
         /// <remarks>
         /// Pole generowane automatycznie.
         /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl divSale;
+
+        /// <summary>
+        /// Kontrolka delList.
+        /// </summary>
+        /// <remarks>
+        /// Pole generowane automatycznie.
+        /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl delList;
     }
 }

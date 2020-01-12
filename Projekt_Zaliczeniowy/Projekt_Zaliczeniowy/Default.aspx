@@ -2,7 +2,8 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div class="text-center">
-           TODO
+           <h2>Aktualny repertuar</h2>
+            <div runat="server" id="films"></div>
     </div>
 
 </asp:Content>
