@@ -61,7 +61,7 @@
                         <%} %>
                         <%if (Session["mail"] != null)
                             { %>
-                            <asp:Button runat="server" CommandName="wyloguj" Text="Wyloguj się" OnClick="Wyloguj"/>
+                            <li><a href="#" runat="server" onserverclick="Wyloguj">Wyloguj się</a></li>
                         <%} %>
                     </ul>
                 </div>
